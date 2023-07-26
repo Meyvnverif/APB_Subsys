@@ -1,0 +1,33 @@
+APB Subsystem Directory Structure 
+  -- rtl
+  -- tb
+     --agents
+        --apb_agent
+        --spi_agent
+        --uart_agent
+        --wdg_agent
+        --rtc_agent
+        --mem_ctrl_agent
+     --ip_tbs
+        --spi_tb
+           --env
+           --register_model
+           --sequences
+           --tb
+           --test
+           --sim
+       --uart_tb
+           --env
+           --register_model
+           --sequences
+           --tb
+           --test
+           --sim
+     --sub_system_tb 
+       --tb    
+           --env
+           --register_model
+           --sequences
+           --tb
+           --test
+           --sim
